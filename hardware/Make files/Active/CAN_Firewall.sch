@@ -1417,27 +1417,27 @@ F 3 "" H 900 4700 60  0000 C CNN
 	1    900  4700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 900  5300 2    60   Input ~ 0
-IVI_CS
-Text GLabel 900  5200 2    60   Input ~ 0
-CAR_CS
-Text GLabel 900  5500 2    60   Input ~ 0
-MISO
 Text GLabel 900  5600 2    60   Input ~ 0
-MOSI
-Text GLabel 900  5400 2    60   Input ~ 0
-SCLK
-Text GLabel 900  5100 2    60   Input ~ 0
-RX_DBG
+IVI_CS
 Text GLabel 900  5000 2    60   Input ~ 0
+CAR_CS
+Text GLabel 900  5200 2    60   Input ~ 0
+MISO
+Text GLabel 900  5300 2    60   Input ~ 0
+MOSI
+Text GLabel 900  5100 2    60   Input ~ 0
+SCLK
+Text GLabel 900  4800 2    60   Input ~ 0
+RX_DBG
+Text GLabel 900  4900 2    60   Input ~ 0
 TX_DBG
 Text GLabel 900  5800 2    60   Input ~ 0
 IVI_RxCAN
 Text GLabel 900  5700 2    60   Input ~ 0
 IVI_TxCAN
-Text GLabel 900  4800 2    60   Input ~ 0
+Text GLabel 900  5500 2    60   Input ~ 0
 CAR_RxCAN
-Text GLabel 900  4900 2    60   Input ~ 0
+Text GLabel 900  5400 2    60   Input ~ 0
 CAR_TxCAN
 $Comp
 L AVR-JTAG-10 CON2

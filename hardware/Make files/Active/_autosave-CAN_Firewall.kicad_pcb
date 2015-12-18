@@ -3,7 +3,7 @@
   (general
     (links 223)
     (no_connects 0)
-    (area 14.500001 90.124999 143.75 186.200001)
+    (area 39.949999 104.949999 108.050001 163.050001)
     (thickness 1.6)
     (drawings 70)
     (tracks 1393)
@@ -1725,6 +1725,11 @@
       (net 2 GND))
     (pad 6 smd rect (at 1.65 -1.45 90) (size 1.1 2.1) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
+    (model Connect.3dshapes/USB_A.wrl
+      (at (xyz 0 0.18 0))
+      (scale (xyz 0.5 0.55 0.4))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x12 (layer F.Cu) (tedit 5673532C) (tstamp 55EF48E3)
