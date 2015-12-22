@@ -1,35 +1,83 @@
 EESchema Schematic File Version 2
 LIBS:CAN_Firewall-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:CUSTOM_KICAD_PART
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
 LIBS:CAN_Firewall-cache
 EELAYER 25 0
 EELAYER END
@@ -620,7 +668,7 @@ U 1 1 55D64F4F
 P 6500 1150
 F 0 "CON3" H 6395 1390 50  0000 C CNN
 F 1 "AVR-AW-6" H 6235 920 50  0000 L BNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03" V 5980 1190 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03" V 5980 1190 50  0001 C CNN
 F 3 "" H 6475 1150 60  0000 C CNN
 F 4 "855-M20-9980346" H 6500 1150 60  0001 C CNN "Mouser"
 	1    6500 1150
@@ -1226,7 +1274,7 @@ U 1 1 55EA8524
 P 9900 3550
 F 0 "J1" H 9900 3750 50  0000 C CNN
 F 1 "+5V_SRC" V 10000 3550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x03" H 9900 3550 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 9900 3550 60  0001 C CNN
 F 3 "" H 9900 3550 60  0000 C CNN
 F 4 "855-M20-9990346" H 9900 3550 60  0001 C CNN "Mouser"
 	1    9900 3550
@@ -1445,7 +1493,7 @@ U 1 1 55EC0977
 P 5250 1050
 F 0 "CON2" H 5080 1380 50  0000 C CNN
 F 1 "AVR-JTAG-10" H 4910 720 50  0000 L BNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05" V 4680 1070 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05" V 4680 1070 50  0001 C CNN
 F 3 "" H 5250 1050 60  0000 C CNN
 	1    5250 1050
 	1    0    0    -1  
